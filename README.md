@@ -1,3 +1,3 @@
 # Algo-exercises-
 
-This is to do the algorithmics exercises of the junior web development class at Becode.
+This repo is for the exercises of the algorithmics lesson from the junior web development class at BeCode.
