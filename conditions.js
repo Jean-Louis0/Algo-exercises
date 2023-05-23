@@ -49,7 +49,7 @@ const readlineSync = require('readline-sync');
 //   result = "Three identical values";
 // } else if (d1 === d2 || d1 === d3 || d2 === d3) {
 //   result = "Two identical values";
-// } else {
+// } else {wa
 //   result = "No identical values";
 // }
 
