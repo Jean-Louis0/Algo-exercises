@@ -78,12 +78,12 @@
 /* Program which receives the time of day in three different numbers, the hour, the minutes and the seconds and returns the number of seconds since midnight. */
 const readlineSync = require('readline-sync');
 // Read the time of day from the user
-var hour = parseInt(readlineSync.question("Enter the hour:"));
-var minutes = parseInt(readlineSync.question("Enter the minutes:"));
-var seconds = parseInt(readlineSync.question("Enter the seconds:"));
+let hour = parseInt(readlineSync.question("Enter the hour:"));
+let minutes = parseInt(readlineSync.question("Enter the minutes:"));
+let seconds = parseInt(readlineSync.question("Enter the seconds:"));
 
 // Calculate the number of seconds since midnight
-var secondsSinceMidnight = (hour * 60 * 60) + (minutes * 60) + seconds;
+let secondsSinceMidnight = (hour * 60 * 60) + (minutes * 60) + seconds;
 
 // Display the number of seconds since midnight
 console.log("Number of seconds since midnight: " + secondsSinceMidnight);

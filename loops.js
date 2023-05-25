@@ -50,8 +50,8 @@ for (i = 0; i <= number_of_throws; i++){
     if(diceNumber === number_to_be_received){
         count++;
     }
-    console.log("the number = " +number_to_be_received+ " was received = "+count+" times out of " +number_of_throws+ " throws");
 }
+console.log("the number = " +number_to_be_received+ " was received = "+count+" times out of " +number_of_throws+ " throws");
 
 /* A program which prints all the even numbers from 0 to a given number. */
 
@@ -66,7 +66,7 @@ for (i = 0; i <= number_of_throws; i++){
 
 /* A program to say if a number is perfect or not */
 
-// let n = parseInt(readlineSync.question('Enter any any number = '));
+// let n = parseInt(readlineSync.question('Enter any number = '));
 
 // let sum = 0;
 
